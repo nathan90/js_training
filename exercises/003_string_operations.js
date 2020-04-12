@@ -20,12 +20,15 @@ const stringReverse = (string1, string2)  => {
     string2array = string2.split("")
     string1rev = []
     string2rev = []
+
     while (string1array.length > 0) {
         string1rev.push(string1array.pop())
     }
+
     while (string2array.length > 0) {
         string2rev.push(string2array.pop())
     }
+    
     console.log("Reversed Strings: ", string1rev.join(""), " ", string2rev.join(""))
 }
 
@@ -35,12 +38,15 @@ const reverseConcat = (string1, string2) => {
     string2array = string2.split("")
     string1rev = []
     string2rev = []
+
     while (string1array.length > 0) {
         string1rev.push(string1array.pop())
     }
+
     while (string2array.length > 0) {
         string2rev.push(string2array.pop())
     }
+
     console.log("Reversed Concatenated Strings: ", string1rev.join("") + string2rev.join(""))
 }
 
@@ -50,7 +56,6 @@ const mixTheLetters = (string1, string2) => {
     stringmix = [];
    
     while (true) {
-    
         if (string1array.length === 0 || string2array.length === 0) {
             stringmix += (string1array + string2array);
             return stringmix
