@@ -16,8 +16,8 @@ const subtraction = (num1, num2)  => {
     console.log("Subtraction :", num1 - num2);
 } 
 const multiplication = (num1, num2)  => {
-    //multiplication
-    console.log("Multiplication :",num1*num2);
+    //multiplication 
+    console.log("Multiplication :",num1 * num2);
 } 
 const division = (num1, num2)  => {
     //division
@@ -25,7 +25,7 @@ const division = (num1, num2)  => {
 } 
 const modulus = (num1, num2)  => {
     //modulus
-    console.log("Modulus :",num1%num2);
+    console.log("Modulus :", num1 % num2);
 } 
 const numbercomparison = (num1, num2) => {
     //Less than greater than equal to
@@ -38,6 +38,7 @@ const numbercomparison = (num1, num2) => {
     }
 
 }
+// Calling the functions
 addition(num1, num2);
 subtraction(num1, num2);
 multiplication(num1, num2);
