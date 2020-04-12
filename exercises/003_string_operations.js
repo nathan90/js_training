@@ -14,7 +14,6 @@ const stringConcat = (string1, string2)  => {
 }
 
 const stringReverse = (string1, string2)  => {
-
     // reverse the string
     string1array = string1.split("")
     string2array = string2.split("")
@@ -28,12 +27,12 @@ const stringReverse = (string1, string2)  => {
     while (string2array.length > 0) {
         string2rev.push(string2array.pop())
     }
-    
+
     console.log("Reversed Strings: ", string1rev.join(""), " ", string2rev.join(""))
 }
 
 const reverseConcat = (string1, string2) => {
-     // reverse the string
+    // reverse the string
     string1array = string1.split("")
     string2array = string2.split("")
     string1rev = []
@@ -51,6 +50,7 @@ const reverseConcat = (string1, string2) => {
 }
 
 const mixTheLetters = (string1, string2) => {
+    // Mix letters of two strings
     string1array = string1.split("");
     string2array = string2.split("");
     stringmix = [];
@@ -70,16 +70,16 @@ const mixTheLetters = (string1, string2) => {
 }
 
 const removeWhiteSpace = (string)  => {
+    // Remove spaces between strings
     string = string.replace(/ /g, '')
     return string
 }
 
 const splitInHalf = (string1) => {
+    // Splits string into two
     const len = string1.length;
     const mid = Math.floor(len/2)
     console.log(" Split string:", string1.slice(0,mid), string1.slice(mid,len))
-
-
 }
 
 //Calling functions
