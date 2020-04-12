@@ -32,7 +32,7 @@ const modulus = (num1, num2)  => {
     console.log("Modulus :", num1 % num2);
 }
 
-const numbercomparison = (num1, num2) => {
+const numberComparison = (num1, num2) => {
     //Less than greater than equal to
     if (num1 === num2) {
         console.log("Numbers are equal");
