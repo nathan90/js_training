@@ -10,23 +10,28 @@ const num2 = parseFloat(readlineSync.question("Enter 2nd Number:"));
 const addition = (num1, num2) => {
     //addition
     console.log("Addition :", num1 + num2);
-} 
+}
+
 const subtraction = (num1, num2)  => {
     //subtraction
     console.log("Subtraction :", num1 - num2);
-} 
+}
+
 const multiplication = (num1, num2)  => {
     //multiplication 
     console.log("Multiplication :", num1 * num2);
-} 
+}
+
 const division = (num1, num2)  => {
     //division
     console.log("Division :", num1 / num2);
 } 
+
 const modulus = (num1, num2)  => {
     //modulus
     console.log("Modulus :", num1 % num2);
-} 
+}
+
 const numbercomparison = (num1, num2) => {
     //Less than greater than equal to
     if (num1 === num2) {
@@ -36,9 +41,10 @@ const numbercomparison = (num1, num2) => {
     } else {
         console.log(num1, " is less than ", num2);
     }
-
 }
+
 // Calling the functions
+
 addition(num1, num2);
 subtraction(num1, num2);
 multiplication(num1, num2);
