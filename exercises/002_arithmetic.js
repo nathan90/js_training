@@ -50,4 +50,4 @@ subtraction(num1, num2);
 multiplication(num1, num2);
 division(num1, num2);
 modulus(num1, num2);
-numbercomparison(num1, num2);
+numberComparison(num1, num2);
