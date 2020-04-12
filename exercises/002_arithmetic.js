@@ -17,11 +17,11 @@ const subtraction = (num1, num2)  => {
 } 
 const multiplication = (num1, num2)  => {
     //multiplication 
-    console.log("Multiplication :",num1 * num2);
+    console.log("Multiplication :", num1 * num2);
 } 
 const division = (num1, num2)  => {
     //division
-    console.log("Division :",num1 / num2);
+    console.log("Division :", num1 / num2);
 } 
 const modulus = (num1, num2)  => {
     //modulus
