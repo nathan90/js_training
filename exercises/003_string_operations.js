@@ -12,6 +12,7 @@ const stringConcat = (string1, string2)  => {
     // concatenate the strings
     console.log("Concatenated String: ", string1 + string2)
 }
+
 const stringReverse = (string1, string2)  => {
 
     // reverse the string
@@ -29,8 +30,7 @@ const stringReverse = (string1, string2)  => {
 }
 
 const reverseConcat = (string1, string2) => {
-
-    // reverse the string
+     // reverse the string
     string1array = string1.split("")
     string2array = string2.split("")
     string1rev = []
@@ -51,17 +51,17 @@ const mixTheLetters = (string1, string2) => {
    
     while (true) {
     
-     if (string1array.length === 0 || string2array.length === 0) {
-         stringmix += (string1array + string2array);
-        return stringmix
-         break;
-     } else {
-         x = string1array.shift()
-         stringmix.push(x)
-         y = string2array.shift()
-         stringmix.push(y)
-     }
- }
+        if (string1array.length === 0 || string2array.length === 0) {
+            stringmix += (string1array + string2array);
+            return stringmix
+            break;
+        } else {
+            x = string1array.shift()
+            stringmix.push(x)
+            y = string2array.shift()
+            stringmix.push(y)
+        }
+    }  
 }
 
 const removeWhiteSpace = (string)  => {
@@ -78,6 +78,7 @@ const splitInHalf = (string1) => {
 }
 
 //Calling functions
+
 stringConcat(string1,string2)
 stringReverse(string1,string2)
 reverseConcat(string1,string2)
