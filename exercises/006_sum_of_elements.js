@@ -6,7 +6,7 @@ let arr = string.split(",").map(Number);
 
 const sumOfElements = (arr) => {
     sum = 0;
-    for (var i = 0; i < arr.length; i++) {
+    for (let i = 0; i < arr.length; i++) {
         sum += arr[i];
     }
     console.log("Sum of Array: ", sum);
