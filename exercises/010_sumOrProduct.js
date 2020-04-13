@@ -22,9 +22,9 @@ const productOfNnumbers = (num) => {
 }
 
 const sumOrProduct = (num, string) => {
-    if (string == 'p') {
+    if (string === 'p') {
         productOfNnumbers(num);
-    } else if (string == 's') {
+    } else if (string === 's') {
         sumOfNnumbers(num);
     } else {
         console.log( "Please enter the correct string");
