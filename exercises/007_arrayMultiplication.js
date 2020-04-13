@@ -7,7 +7,7 @@ let arr = string.split(",").map(Number);
 
 const arrayMultiplication = (arr) => {
     let arr_multlplied = arr.map(x => x * const_num);
-    console.log("Array ", arr ," multiplied by constant: ",const_num, "= ", arr_multlplied);
+    console.log("Array ", arr, " multiplied by constant: ", const_num, "= ", arr_multlplied);
 }
 
 arrayMultiplication(arr);
