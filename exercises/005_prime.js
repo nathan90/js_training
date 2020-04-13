@@ -9,10 +9,9 @@ const isPrime = (num) => {
         for (let i = 2; i < Math.floor(num/2)+1; i++) {
             if (num%i === 0) {
                 return "Number is not prime";
-            } else {
-                return "Number is prime";
-            }
+            }            
         }
+        return "Number is prime";
     }
 }
 
