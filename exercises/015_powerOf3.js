@@ -5,9 +5,9 @@ const num = parseInt(readlineSync.question("Enter a Number: "));
 
 const powerOf3 = (num) => {
     for (let i = 1; i < num; i++) {
-        if (Math.pow(3,i) === num) {
+        if (Math.pow(3, i) === num) {
             return "Number is a power of 3";
-        } else if (Math.pow(3,i) > num) {
+        } else if (Math.pow(3, i) > num) {
             return "Number is not a power of 3";
         }
     }
