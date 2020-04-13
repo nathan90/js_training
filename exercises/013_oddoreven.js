@@ -13,4 +13,5 @@ const oddOrEven = (num) => {
         console.log("No number entered")
     }
 }
+
 oddOrEven(num)
