@@ -3,7 +3,7 @@ const readlineSync = require("readline-sync");
 const year = parseInt(readlineSync.question("Enter a Starting Year: "));
 
 const leapYear = (year) => {
-    rem = year % 4
+    let rem = year % 4
     if (rem === 0) {
         for (let i = 1; i <= 20; i++) {
             console.log(year)
