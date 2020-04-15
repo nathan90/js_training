@@ -5,7 +5,7 @@ const string = readlineSync.question("Enter a list on Integers separated by comm
 let arr = string.split(",").map(Number);
 
 const sumOfElements = (arr) => {
-    sum = 0;
+    let sum = 0;
     for (let i = 0; i < arr.length; i++) {
         sum += arr[i];
     }
