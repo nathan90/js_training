@@ -11,4 +11,4 @@ const greatest = (num1, num2, num3) => {
 }
 
 //Calling the function
-console.log("Greatest number is ", greatest(40, 120, 30))
+console.log("Greatest number is ", greatest(40, 120, 30));
