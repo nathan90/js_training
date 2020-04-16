@@ -9,4 +9,4 @@ const lcm = (num1, num2) => {
 }
 
 //calling the function
-console.log("The least common multiple is ",lcm(4, 6))
+console.log("The least common multiple is ",lcm(4, 4));
