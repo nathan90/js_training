@@ -14,10 +14,10 @@ const leapYear = (year) => {
             year += 3;
             for (let i = 1; i <= 20; i++) {
                 console.log(year);
-                year += 4
+                year += 4;
             } 
         } else if (rem === 2) {
-            year += 2
+            year += 2;
             for (let i = 1; i <= 20; i++) {
                 console.log(year);
                 year += 4;
