@@ -2,12 +2,12 @@
 
 const posOrNeg = (num) => {
     if (num < 0) {
-        return "Number is negative"
+        return "Number is negative";
     } else {
-        return "Number is positive"
+        return "Number is positive";
     }
 }
 
 //Calling the function
 
-console.log(posOrNeg(-10))
+console.log(posOrNeg(-10));
