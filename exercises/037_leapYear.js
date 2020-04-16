@@ -10,4 +10,4 @@ const leapYear = (year) => {
 
 //calling the function
 let year =  1999;
-console.log(`The year ${year} is`, leapYear(year))
+console.log(`The year ${year} is`, leapYear(year));
