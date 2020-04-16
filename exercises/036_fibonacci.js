@@ -13,5 +13,5 @@ const fibonacci = (number) => {
 
 // Enter the value of n
 let number = 1000;
-console.log(`The fibonacci numbers upto ${number}:`)
+console.log(`The fibonacci numbers upto ${number}:`);
 fibonacci(number);
