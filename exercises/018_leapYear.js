@@ -6,7 +6,7 @@ const leapYear = (year) => {
     let rem = year % 4;
     if (rem === 0) {
         for (let i = 1; i <= 20; i++) {
-            console.log(year)
+            console.log(year);
             year += 4;
         }
     } else {
