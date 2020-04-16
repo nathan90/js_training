@@ -8,7 +8,7 @@ const sumOfSquares = (num) => {
         if (x * x < num) {
             for (let y = 1; y * y < num; y++) {
                 if ((x * x + y * y) === num) {
-                    return [x, y]
+                    return [x, y];
                 }
             }
         } else if (x * x >= num) {
@@ -18,7 +18,7 @@ const sumOfSquares = (num) => {
 }
 
 //calling the function
-let wholenumbers = sumOfSquares(num)
+let wholenumbers = sumOfSquares(num);
 if (wholenumbers != undefined) {
     console.log(num + " can be expressed as square of " + wholenumbers[0] + " and " + wholenumbers[1]);
 } else {
