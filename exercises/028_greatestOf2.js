@@ -8,4 +8,5 @@ const greatest = (num1, num2) => {
     }
 }
 
-console.log("Greatest number is ", greatest(10,20))
+//Calling the function
+console.log("Greatest number is ", greatest(10,20));
