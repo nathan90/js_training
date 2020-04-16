@@ -1,7 +1,7 @@
 //Find the power of a number
 
 const powerOf = (number, power) => {
-    return Math.pow(number, power)
+    return Math.pow(number, power);
 }
 
 //calling the function
