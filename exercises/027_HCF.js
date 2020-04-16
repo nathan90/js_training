@@ -1,7 +1,7 @@
 //HCF of two numbers
 
 const hcf = (num1, num2) => {
-    let min = Math.min(num1, num2)
+    let min = Math.min(num1, num2);
     for (let i = min; i > 0; i--) {
         if ((num1 % i === 0) && (num2 % i === 0)) {
             return i;
@@ -10,4 +10,4 @@ const hcf = (num1, num2) => {
 }
 
 // calling the function
-console.log("The Highest Common Factor is ", hcf(60, 20))
+console.log("The Highest Common Factor is ", hcf(9, 8));
