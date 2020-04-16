@@ -10,6 +10,6 @@ const sumRange = (num1, num2) => {
 }
 
 //Set the value of num1 and num2
-let num1 = 1
-let num2 = 10
+let num1 = 1;
+let num2 = 10;
 console.log(`The sum of numbers in the range ${num1} to ${num2} is :`, sumRange(num1, num2));
