@@ -10,9 +10,9 @@ allPrimeNumbers = (number) => {
     if (number === 2) {
         return primeNumbers;
     }
-    for (i = 3; i <= number; i = i+2) {
+    for (let i = 3; i <= number; i = i+2) {
         let flagPrime = true;
-        for (j = 3; j < Math.floor(i/2) + 1; j = j + 2) {
+        for (let j = 3; j < Math.floor(i/2) + 1; j = j + 2) {
             if (i % j === 0) {
                 flagPrime = false;
                 break;
