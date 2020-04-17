@@ -1,7 +1,7 @@
 //42. Find all Factors of a number
 
 const factors = (number) => {
-    factorsArray = [];
+     let factorsArray = [];
     for (i = 1; i <= Math.floor(number / 2); i++) {
         if (number % i === 0) {
             factorsArray.push(i);
