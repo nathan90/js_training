@@ -2,7 +2,7 @@
 
 const factors = (number) => {
      let factorsArray = [];
-    for (i = 1; i <= Math.floor(number / 2); i++) {
+    for (let i = 1; i <= Math.floor(number / 2); i++) {
         if (number % i === 0) {
             factorsArray.push(i);
         }
