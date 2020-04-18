@@ -3,13 +3,16 @@
 quadraticRoots = (a, b, c) => {
     let discriminant = (b * b) - 4 * a * c;
     let rootCount = 0;
+
     if (discriminant < 0) {
         return {rootCount};
-    } else if (discriminant === 0) {
+    } 
+    else if (discriminant === 0) {
         let root1 = (-b) / (2 * a);
         rootCount = 1;
-        return {rootCount, root1}
-    } else {
+        return {rootCount, root1};
+    } 
+    else {
         rootCount = 2;
         let root1 = (-b + Math.sqrt(discriminant)) / (2 * a);
         let root2 = (-b - Math.sqrt(discriminant)) / (2 * a);
