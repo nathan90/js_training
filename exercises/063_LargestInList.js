@@ -5,6 +5,6 @@ const maxInList = (arr) => {
 }
 
 //calling the function
-let arr = [1,3,34,2,8];
+let arr = [1, 3, 34, 2, 8];
 console.log(`The maximum value in the list [${arr}] is`, maxInList(arr));
 
