@@ -10,7 +10,7 @@ sumOfDigits = (number) => {
 }
 
 sumOfNumberString = (string) => {
-    let number = parseInt('abc12345 ssds06789'.replace(/[^0-9\.]/g, ''), 10);
+    let number = parseInt(string.replace(/[^0-9\.]/g, ''), 10);
     let sum = sumOfDigits(number);
     return sum;
 }
